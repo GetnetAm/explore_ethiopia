@@ -1,13 +1,79 @@
-
-import "./turism.css"
+import "./turism.css";
 import lalmain1 from "../../assets/lalmain-1.svg";
 import afar21 from "../../assets/afar-2-1.svg";
 import axum1 from "../../assets/axum-1.svg";
 import rectangle6 from "../../assets/rectangle-6.svg";
 function Turism() {
   return (
-    <section className='section-1'>
-    <div className="text-wrapper-3">top tour</div>
+    <section className="section-1">
+      <div className="turism_Section">
+        <div className="turism_header">
+          <h2>Top Tour Places</h2>
+        </div>
+        <div className="turism_desc">
+          <h1> The Most&nbsp;&nbsp;Amazing Ethiopian Truism</h1>
+        </div>
+
+        <div className="all_cards">
+          <div className="card">
+            <div className="card_img">
+              <img className="lalmain" alt="Lalmain" src={lalmain1} />
+            </div>
+
+            <div className="card_header">
+              <h3>St. Lalibela</h3>
+            </div>
+            <div className="card_desc">
+              <p>
+                There is some controversy as to when some of the churches
+                wereconstructed. According to local tradition, in Ethiopia prior
+                to his accession to the throne, Gebre
+              </p>
+              <button className="see_more">Read More</button>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card_img">
+              <img className="lalmain" alt="Lalmain" src={lalmain1} />
+            </div>
+
+            <div className="card_header">
+              <h3>Axum</h3>
+            </div>
+            <div className="card_desc">
+              <p>
+                  Aksum is a city in northern Ethiopia. It ;s known for
+              itstall, carved obelisks, relics of the ancient
+              Kingdom of Aksum. Most arein the northern Stelae Park,
+              including a huge fallen pillar
+              </p>
+              <button className="see_more">Read More</button>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card_img">
+            <img className="axum" alt="Axum" src={afar21} />
+            </div>
+
+            <div className="card_header">
+              <h3>Ertale</h3>
+            </div>
+            <div className="card_desc">
+              <p>
+              Dallol currently holds the official record for record high average temperature
+               for an inhabited location on Earth, and an average 
+              </p>
+              <button className="see_more">Read More</button>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      {/* <div className="text-wrapper-3">top tour</div>
         <div className="the-most-amazing">
           The Most&nbsp;&nbsp;Amazing Ethiopian Truism
         </div>
@@ -71,13 +137,9 @@ function Turism() {
           <div className="text-wrapper-9">Axum</div>
           <img className="img" alt="Rectangle" src={rectangle6} />
           <div className="text-wrapper-10">Read More</div>
-        </div>
-
-
-
+        </div> */}
     </section>
-
-  )
+  );
 }
 
-export default Turism
+export default Turism;

@@ -10,7 +10,8 @@
     height: 600px;
     left: 76px;
     object-fit: cover;
-    position: absolute;
+    position: relative;
+    /* position: absolute; */
     width: 90%;
  }
 

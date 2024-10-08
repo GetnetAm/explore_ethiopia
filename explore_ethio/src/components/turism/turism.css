@@ -1,0 +1,100 @@
+.turism_Section {
+  margin: 20px;
+  position: relative;
+}
+.turism_header h2 {
+  color: #f8e005;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 33px;
+  font-weight: 400;
+  height: 40px;
+  /* left: 495px; */
+  letter-spacing: 0;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  /* top: 786px; */
+  white-space: nowrap;
+}
+.turism_desc h1 {
+  color: #116b40;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 44px;
+  font-weight: 500;
+  height: 80px;
+  left: 130px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  /* top: 841px; */
+
+  width: 1049px;
+}
+
+.all_cards {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 20px;
+    gap: 30px;
+    align-items: center;
+}
+
+.card {
+  height: 520px;
+  left: 75px;
+  position: relative;
+  width: 406px;
+  background-color: #e63333;
+  box-shadow: 5px 15px 9px #00000040;
+}
+
+.card_img {
+  height: 195;
+  width: 100%;
+}
+.card_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card_header h3 {
+  color: #ffffff;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 44px;
+  font-weight: 500;
+  height: 40px;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+.card_desc p {
+  color: #ffffff;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+.see_more {
+  background-color: #32a2f3;
+  border-radius: 50px;
+  height: 55px;
+  left: 41px;
+  position: absolute;
+  top: 465px;
+  width: 226px;
+  color: #fff6f9;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 23px;
+  font-weight: 500;
+  height: 49px;
+  left: 77px;
+  letter-spacing: 0;
+  line-height: 40px;
+  width: 144px;
+}

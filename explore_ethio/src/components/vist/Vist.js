@@ -7,7 +7,21 @@ import g11 from "../../assets/g-1-1.svg";
 function Vist() {
   return (
     <section className='section-3'>
-    <div className="text-wrapper-11">Visit Ethiopia</div>
+        <div className="vist">
+            <div className="vist_header">
+                <h2>Visit Ethiopia</h2>
+
+            </div>
+            <div className="vist_desc">
+            <p className="welcome-to-ethiopia">
+          Welcome to Ethiopia, Land of Origins · Things to do in Ethiopia ·
+          Trekking on the peaks of Ethiopia
+        </p>
+
+            </div>
+
+        </div>
+    {/* <div className="text-wrapper-11">Visit Ethiopia</div>
         <p className="welcome-to-ethiopia">
           Welcome to Ethiopia, Land of Origins · Things to do in Ethiopia ·
           <br />
@@ -33,7 +47,7 @@ function Vist() {
             <p className="text-wrapper-33">
               Fasil Ghebbi | The Royal Enclosure
             </p>
-          </div> 
+          </div>  */}
     </section>
   )
 }
