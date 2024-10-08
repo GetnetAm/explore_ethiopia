@@ -1,0 +1,79 @@
+.hero{
+    background-image: url('../../assets/lalm-1-1.svg');
+    /* height: 80vh; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    left: 76px;
+    object-fit: cover;
+    position: absolute;
+    width: 90%;
+ }
+
+  .rectangle-2 {
+    background-color: #24967b26;
+    border-radius: 7px;
+    box-shadow: 12px 5px 4px #5a525240;
+    height: 620px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+.hero-container {
+    /* background-image: url('/path/to/your/background-image.jpg');  */
+    background-image: url('../../assets/lalm-1-1.svg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    color: white; /* Set text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add some shadow for better readability */
+  }
+  .hero-title{
+
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 54px;
+    font-weight: 400;
+    height: 40px;
+    left: 326px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 13px 5px 3px #00000040;
+    top: 350px;
+    white-space: nowrap;
+
+  }
+  
+  .hero-description{
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 124px;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    width: 1134px;
+  }
+ 
+  
+
+  
