@@ -18,12 +18,7 @@ function Hero() {
         </div>
       </div>
 
-      {/* <div className="hero-container">
-      <div className="hero-content">
-        <h1>Welcome to Our Website</h1>
-        <p>Your tagline or description here</p>
-      </div>
-    </div> */}
+    
     </section>
   );
 }
