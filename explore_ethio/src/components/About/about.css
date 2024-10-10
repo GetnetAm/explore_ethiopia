@@ -1,0 +1,255 @@
+.container {
+    width: 100%;
+}
+
+.about_us {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #D9D9D9;
+    height: 350px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.about_desc {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.about_desc h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.about_desc p {
+    text-align: justify;
+    font-size: 26px;
+    font-family: initial;
+    font-style: italic;
+}
+
+.about_img {
+    height: 340px;
+    width: 600px;
+    margin-top: 5px;
+    background: yellow;
+}
+
+.about_img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.gidance_header h1 {
+    color: #000000;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    width: 299px;
+    margin: 0 auto;
+}
+
+.all_gidances {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 20px;
+    gap: 30px;
+    align-items: center;
+}
+
+.card_gide {
+    height: 400px;
+    position: relative;
+    width: 406px;
+    background-color: #D8E8E3;
+    box-shadow: 5px 15px 9px #00000040;
+}
+
+.card_img {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.card_img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card_header h3 {
+    color: black;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card_desc p {
+    color: #000000;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    text-align: justify;
+    width: 90%;
+    margin: 5px;
+}
+
+.our_uniqe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.uniq {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.uniq h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.uniq p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.uniq_img {
+    width: 30%;
+}
+
+.uniq_img img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.back_button {
+    background-color: #17d1f9;
+    color: #ffffff;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 23px;
+    text-align: center;
+    width: 334px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 1536px) {
+    .container {
+        width: 1536px;
+    }
+    .about_desc h1 {
+        font-size: 40px;
+    }
+    .about_desc p {
+        font-size: 20px;
+    }
+    .about_img {
+        width: 100%;
+        height: auto;
+    }
+    .gidance_header h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
+    .card_gide {
+        width: 380px;
+    }
+    .gidance_header h1 {
+        font-size: 26px;
+    }
+    .card_header h3 {
+        font-size: 20px;
+    }
+    .back_button {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+    .card_gide {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .about_us {
+        flex-direction: column;
+        height: auto;
+    }
+    .all_gidances {
+        flex-direction: column;
+    }
+    .gidance_header h1 {
+        font-size: 22px;
+    }
+    .card_gide {
+        width: 100%;
+
+    }
+    .uniq {
+        width: 60%;
+    }
+    .uniq_img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 640px;
+    }
+    .our_uniqe {
+        flex-direction: column;
+    }
+    .uniq {
+        width: 100%;
+        margin-left: 0;
+    }
+    .uniq_img {
+        width: 100%;
+    }
+    .back_button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 475px) {
+    .container {
+        width: 475px;
+    }
+    .card_gide {
+        height: 100%;
+        width: 100%;
+    }
+    .card_header h3 {
+        font-size: 16px;
+    }
+    .about_desc p {
+        font-size: 15px;
+    }
+}

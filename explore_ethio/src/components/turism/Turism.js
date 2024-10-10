@@ -1,11 +1,11 @@
 import "./turism.css";
-import lalmain1 from "../../assets/lalmain-1.svg";
-import afar21 from "../../assets/afar-2-1.svg";
-import axum1 from "../../assets/axum-1.svg";
-import rectangle6 from "../../assets/rectangle-6.svg";
+import vistE from "../../assets/vistE.jpeg";
+import { useCollapse } from "react-collapsed";
 function Turism() {
+  const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
+
   return (
-    <section className="section-1">
+    <section className="container">
       <div className="turism_Section">
         <div className="turism_header">
           <h2>Top Tour Places</h2>
@@ -14,130 +14,47 @@ function Turism() {
           <h1> The Most&nbsp;&nbsp;Amazing Ethiopian Truism</h1>
         </div>
 
-        <div className="all_cards">
-          <div className="card">
-            <div className="card_img">
-              <img className="lalmain" alt="Lalmain" src={lalmain1} />
-            </div>
-
-            <div className="card_header">
-              <h3>St. Lalibela</h3>
-            </div>
-            <div className="card_desc">
+        <div className="eth_tur">
+          <div className="eth_tur_desc">
+            <h1>How is Ethiopia as a Travel Destination</h1>
+            <p>
+              Ethiopia. One of those countries that we all have heard but knew
+              very little about. The mention of this country brings an exotic
+              sound where one might imagine well-fashioned and accessorized
+              tribes in a mountainous backdrop. That’s how it was for me at
+              least. Luckily, that daydreaming had come to an end. The nature of
+              my work, fortunately, gave me the once-in-a-lifetime opportunity
+              to see this country.
+            </p>
+            <section {...getCollapseProps()}>
+              {" "}
               <p>
-                There is some controversy as to when some of the churches
-                wereconstructed. According to local tradition, in Ethiopia prior
-                to his accession to the throne, Gebre
+                Ethiopia is about Historic Sights, Tribes, and Landscapes. Note
+                that Ethiopia is nothing like Kenya and Tanzania, it is not a
+                safari destination where you can expect to see lions and such.
+                This is a common misconception among tourists so LEARN. Ethiopia
+                is a history lover’s paradise with a lot of ancient landmarks.
+                The classic must-visit ones are Lalibela, Aksum, Gondar (history
+                and religious travel); Omo Valley (tribes and culture); and
+                Danakil Depression, a geographic wonder— one of the hottest and
+                lowest lands in the world. I can also recommend the 6th Century
+                Abuna Yemata Guh church, which bristles with stories from a
+                distant past. Simien Mountains are also must-visits in the
+                country especially if you like hiking or camping but you have to
+                be lucky with the weather or like us, you won’t see anything
+                because of the fog.
               </p>
-              <button className="see_more">Read More</button>
-            </div>
+            </section>
+
+            <button {...getToggleProps()} className="see_more">
+              {isExpanded ? "See Less" : "Show More"}
+            </button>
           </div>
-
-          <div className="card">
-            <div className="card_img">
-              <img className="lalmain" alt="Lalmain" src={lalmain1} />
-            </div>
-
-            <div className="card_header">
-              <h3>Axum</h3>
-            </div>
-            <div className="card_desc">
-              <p>
-                  Aksum is a city in northern Ethiopia. It ;s known for
-              itstall, carved obelisks, relics of the ancient
-              Kingdom of Aksum. Most arein the northern Stelae Park,
-              including a huge fallen pillar
-              </p>
-              <button className="see_more">Read More</button>
-            </div>
+          <div className="eth_tur_img">
+            <img src={vistE} alt="" />
           </div>
-
-          <div className="card">
-            <div className="card_img">
-            <img className="axum" alt="Axum" src={afar21} />
-            </div>
-
-            <div className="card_header">
-              <h3>Ertale</h3>
-            </div>
-            <div className="card_desc">
-              <p>
-              Dallol currently holds the official record for record high average temperature
-               for an inhabited location on Earth, and an average 
-              </p>
-              <button className="see_more">Read More</button>
-            </div>
-          </div>
-
-
-
         </div>
       </div>
-      {/* <div className="text-wrapper-3">top tour</div>
-        <div className="the-most-amazing">
-          The Most&nbsp;&nbsp;Amazing Ethiopian Truism
-        </div>
-
-      
-        <div className="overlap-group">
-          <div className="rectangle-3" />
-          <p className="there-is-some">
-            <span className="span">
-              There is some controversy as to when some of the churches
-              wereconstructed. According to local tradition, in Ethiopia prior
-              to hisaccession to the throne
-            </span>
-            <a
-              href="https://en.wikipedia.org/wiki/Gebre_Meskel_Lalibela"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span className="text-wrapper-4">Gebre </span>
-            </a>
-          </p>
-          <img className="lalmain" alt="Lalmain" src={lalmain1} />
-          <div className="text-wrapper-5">St. Lalibela</div>
-          <div className="rectangle-4" />
-          <div className="text-wrapper-6">Read More</div>
-        </div>
-        <div className="overlap-2">
-          <p className="dallol-currently">
-            <span className="span">
-              Dallol currently holds the official record for{" "}
-            </span>
-            <a
-              href="https://en.wikipedia.org/wiki/Extremes_on_Earth#Coldest_and_hottest_inhabited_places_on_Earth"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span className="text-wrapper-4">
-                record high average temperature for an inhabited location
-              </span>
-            </a>
-            <span className="span"> on Earth, and an average </span>
-          </p>
-          <div className="text-wrapper-7">Afar</div>
-          <div className="overlap-3">
-            <div className="text-wrapper-8">Read More</div>
-          </div>
-          <img className="afar" alt="Afar" src={afar21} />
-        </div>
-        <div className="overlap-group-2">
-          <div className="rectangle-5" />
-          <p className="aksum-is-a-city-in">
-            <span className="span">
-              Aksum is a city in northern Ethiopia. It ;s known for
-              itstall, carved obelisks, relics of the ancient
-              Kingdom of Aksum. Most arein the northern Stelae Park,
-              including a huge fallen pillar, now in&npieces
-            </span>
-            <span className="text-wrapper-4">&nbsp;</span>
-          </p>
-          <img className="axum" alt="Axum" src={axum1} />
-          <div className="text-wrapper-9">Axum</div>
-          <img className="img" alt="Rectangle" src={rectangle6} />
-          <div className="text-wrapper-10">Read More</div>
-        </div> */}
     </section>
   );
 }

@@ -1,71 +1,187 @@
 .navbar {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    background-color: #D9D9D9;
-    padding: 10px 20px;
-    height: 70px;
-    box-shadow: 12px 5px 4px #5a525240;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  padding: 10px 20px;
+  height: 70px;
+
+  border-radius: 0px;
+  border-radius: 0px;
+  background: #c0c0c0;
+  box-shadow: 13px 13px 60px #717171, -13px -13px 60px #ffffff;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    color: dodgerblue;
-    font-size: 24px;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: dodgerblue;
+  font-size: 24px;
+  font-weight: bold;
+}
+.project{
+  color: white;
+  font-size: 20px;
+  background-color: dodgerblue;
+  height: 40px;
+  text-align: center;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: 5px solid dodgerblue;
+  border-radius: 50%;
 }
 
-.logo img {
-    width: 50px; /* Adjust size according to your logo */
-    height: 50px; /* Adjust size according to your logo */
-    margin-right: 10px; /* Space between logo and text */
-    border: 5px solid dodgerblue;
-    border-radius: 50%;
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+}
+
+ul li {
+  position: relative;
+}
+
+ul .nav-link {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+ul .nav-link:hover {
+  background: #c0c0c0;
+  color: dodgerblue;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  .navbar-nav {
+    border-radius: 50px;
+    background: #c0c0c0;
+  }
+  .nav-link {
+    color: white;
+    font-size: 16px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu li {
+    margin: 30px 0;
+  }
+}
+
+.navbar {
+  background-color: #333;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 0 20px;
 }
 
 .nav-links {
-    list-style: none;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links:hover {
+  color: #04aa6d;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-bar {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50%;
-}
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
 
-.nav-links li {
-    position: relative;
-}
+    transition: all 0.5s ease;
+  }
+  .navbar-nav {
+    border-radius: 50px;
+    background: #c0c0c0;
+  }
+  .nav-link {
+    color: white;
+    font-size: 16px;
+  }
 
-.nav-links .link {
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 15px 20px;
-    transition: background 0.3s, color 0.3s;
-}
+  .nav-menu.active {
+    left: 0;
+  }
 
-.nav-links .link:hover {
-    background: #575757;
-    color: dodgerblue;
-}
-
-
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: #333;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hamburger {
-        display: flex;
-    }
+  .nav-item {
+    margin: 40px 0;
+  }
 }

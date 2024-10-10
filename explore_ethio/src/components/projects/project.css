@@ -1,0 +1,395 @@
+
+.container{
+    width: 100%;
+}
+.figma_projects{
+    margin: auto;
+    background:#e0e0e0;
+    width: 100%;
+}
+.figma_projects h3{
+    margin: 5px;
+    padding: 10px;
+    color: dodgerblue;
+}
+.figma_class{
+    display: flex;
+    flex-direction: column
+}
+
+.desktop_m{
+    display: flex;
+    flex-direction: row
+
+}
+
+.desktop_m img{
+    width: 200px;
+    height: 100px;
+    
+}
+
+.desktop_m h3{
+    font-size: 28px;
+    text-align: center;
+}
+
+.figma{
+    display: flex;
+    flex-wrap: wrap;
+}
+.figma_imge{
+    width: 500px;
+    height: auto;
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid dodgerblue;
+}
+.figma_imge img{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+.figma_imge p{
+    color: white;
+    font-size: 20px;
+}
+
+
+.figma_link{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.figma_link p{
+    font-size: 20px;
+}
+.figma_link .link{
+    text-decoration: underline;
+    color: dodgerblue;
+    
+}
+
+
+
+.react_projects{
+    width: 100%;
+
+}
+
+.react_projects h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.react_class{
+    display: flex;
+    flex-direction: column;
+}
+
+.react_desk{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.react_desk img{
+    width: 150px;
+    height: 100px;
+    
+}
+.react_desk h4{
+    font-size: 25px;
+    color: dodgerblue;
+}
+
+.react{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.react_image{
+    height: 500px;
+    width: 600px;
+    padding: 10px;
+    margin: 5px;
+    background: rebeccapurple;
+}
+
+.react_image img{
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+}
+
+.react_image p{
+    color: white;
+    font-size: 20px;
+}
+
+.my_projects{
+    text-align: center;
+    border-radius: 50px;
+background: #191919;
+box-shadow:  20px 20px 60px #151515,
+             -20px -20px 60px #1d1d1d;
+}
+.my_projects h2{
+    color: dodgerblue;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.my_projects h3{
+    color: dodgerblue;
+    font-style: italic;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+.me {
+    text-align: justify;
+    height: 30vh;
+}
+.me .link{
+    color: dodgerblue;
+    text-decoration: none;
+    
+
+}
+.me span{
+    text-decoration: underline;
+    color: gold;
+}
+
+
+
+  
+@media (max-width: 1536px) {
+    .container{
+      width: 1536px;
+    }
+
+    .figma_projects{
+        width: 100%;
+    }
+
+    
+
+ 
+   
+
+   
+    
+  }
+  @media (max-width: 1280px) {
+    .container{
+      width: 1280px;
+    }
+    .desktop_m img{
+        width: 150px;
+        height: 100px;
+        
+    }
+    
+    .desktop_m h3{
+        font-size: 25px;
+      
+    }
+    .desktop_m h3{
+        font-size: 24px;
+    }
+    
+   
+    .figma_imge{
+        width: 450px;
+       
+    }
+   
+    
+
+    .figma_link p{
+        font-size: 1px;
+    }
+
+    
+.react_desk img{
+    width: 100px;
+    height: 90px;
+    
+}
+.react_desk h4{
+    font-size: 22px;
+    
+}
+
+
+
+
+.react_image{
+    height: 300px;
+    width: 400px;
+   
+}
+
+.my_projects h2{
+    font-size: 25px;
+  
+}
+
+.my_projects h3{
+   
+    font-size: 23px;
+
+}
+
+
+
+ 
+    
+  }
+  @media (max-width: 1024px) {
+    .container{
+      width: 1024px;
+    }
+
+    .figma{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .figma_imge{
+        width: 650px;
+       
+    }
+ 
+    
+  }
+  @media (max-width: 768px) {
+    .container{
+      width: 768px;
+    }
+
+    .figma_projects h3{
+        font-size: 22px;
+    }
+    
+.react_desk img{
+    width: 150px;
+    height: 100px;
+    
+}
+.react_desk h4{
+    font-size: 20px;
+
+}
+
+.react{
+    display: flex;
+    flex-direction: column;
+}
+
+.react_image{
+    height: 500px;
+    width: 100%;
+  
+}
+
+.my_projects h2{
+    font-size: 20px;
+  
+}
+
+.my_projects h3{
+   
+    font-size: 18px;
+
+}
+
+
+   
+  
+  }
+  
+  @media (max-width: 640px) {
+    .container{
+      width: 640px;
+    }
+    .figma_imge{
+        width: 500px;
+       
+    }
+
+    .desktop_m h3{
+        font-size: 22px;
+      
+    }
+    .desktop_m h3{
+        font-size: 243px;
+    }
+    .react_image{
+        height: 400px;
+    
+      
+    }
+    .my_projects h2{
+        font-size: 18px;
+      
+    }
+    
+    .my_projects h3{
+       
+        font-size: 16px;
+    
+    }
+ 
+   
+   
+  
+  }
+  
+  @media (max-width: 475px) {
+    .container{
+      width: 475px;
+    }
+    .figma_imge{
+        width: 400px;
+       
+    }
+
+    .desktop_m h3{
+        font-size: 20px;
+      
+    }
+    .desktop_m h3{
+        font-size: 21px;
+    }
+ 
+    
+    
+    
+  
+   
+  }
+  
+  @media (max-width: 375px) {
+    .container{
+      width: 375px;
+    }
+    .figma_imge{
+        width: 300px;
+       
+    }
+ 
+ 
+ 
+   
+  }
+  
+  
+    

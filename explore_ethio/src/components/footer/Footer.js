@@ -1,5 +1,9 @@
 import React from 'react'
 import "./footer.css"
+import { FaTelegram } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 import lalm11 from "../../assets/lalm-1-1.svg";
 import lalmain1 from "../../assets/lalmain-1.svg";
 import logo21 from "../../assets/logo-2-1.svg";
@@ -18,10 +22,119 @@ import rectangle6 from "../../assets/rectangle-6.svg";
 import vector2 from "../../assets/vector-2.svg";
 import vector from "../../assets/vector.svg";
 
+import { FaFacebook } from "react-icons/fa6";
+
 function Footer() {
   return (
     <div className='footer'>
- <img className="rectangle-9" alt="Rectangle" src={rectangle13} />
+
+      <div className='main_footer'>
+        <div className='log_part'>
+          <div className='logo_img'>
+          <img className="logomain-2" alt="Logomain" src={logomain2} />
+          </div>
+          <div className='logo_desc'>
+            <p>
+            <span className="exeth">Explore</span>
+              <span>&nbsp;</span>
+              <span className="eth">Ethi</span>
+              <span className="opia">opia</span>
+            </p>
+          </div>
+
+        </div>
+        <div className='quick'>
+         <div>
+         <p>Quick Link</p>
+         {/* <div className="underline" /> */}
+         </div>
+          <ul>
+            <li>
+              <Link className='link'>Home</Link>
+              
+            </li>
+            <li>
+              <Link className='link'>About Us</Link>
+              
+            </li>
+            <li>
+              <Link className='link'>Contact us</Link>
+              
+            </li>
+          </ul>
+
+        </div>
+        <div className='distination'>
+       <div>
+       <p>Destination</p>
+       {/* <div className="underline" /> */}
+       </div>
+          <ul>
+          <li>
+              <Link className='link'>Lalibela</Link>
+              
+            </li>
+            <li>
+              <Link className='link'>Gonder</Link>
+              
+            </li>
+            <li>
+              <Link className='link'>Afar</Link>
+              
+            </li>
+            <li>
+              <Link className='link'>Tigray</Link>
+              
+            </li>
+            <li>
+              <Link className='link'>Ormiya</Link>
+              
+            </li>
+            <li>
+              <Link className='link'>South Region</Link>
+              
+            </li>
+       
+          </ul>
+
+        </div>
+        <div className='social_media'>
+       <div>
+       <p>Social Media</p>
+       {/* <div className="underline" /> */}
+       </div>
+          <ul>
+          <li>
+             <Link className='link'>
+             <FaFacebook />
+             </Link>
+              
+            </li>
+            <li>
+              <Link className='link'><FaTelegram /></Link>
+              
+            </li>
+            <li>
+              <Link className='link'><FaSquareXTwitter/></Link>
+              
+            </li>
+            <li>
+              <Link className='link'><FaYoutube /></Link>
+              
+            </li>
+           
+       
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div className='copy_right'>
+        <p>@2024 copy Right is Reserved By Law</p>
+
+      </div>
+ {/* <img className="rectangle-9" alt="Rectangle" src={rectangle13} />
             <div className="text-wrapper-14">South Regin</div>
             <div className="text-wrapper-15">Oromia</div>
             <div className="text-wrapper-16">Tigray</div>
@@ -68,7 +181,7 @@ function Footer() {
               alt="Ic outline facebook"
               src={icOutlineFacebook}
             />
-      
+       */}
     </div>
   )
 }
