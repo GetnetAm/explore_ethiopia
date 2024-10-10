@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/explore_ethiopia/static/css/main.98904c85.css",
+    "main.js": "/explore_ethiopia/static/js/main.419fb6fc.js",
+    "static/media/rd1.PNG": "/explore_ethiopia/static/media/rd1.375a771424edd4c65d5f.PNG",
+    "static/media/rd3.PNG": "/explore_ethiopia/static/media/rd3.39758a9d3b464ec688f3.PNG",
+    "static/media/rd4.PNG": "/explore_ethiopia/static/media/rd4.307841cceaa69aeac483.PNG",
+    "static/media/rd5.PNG": "/explore_ethiopia/static/media/rd5.d6036ca8b114fe56f596.PNG",
+    "static/media/rd6.PNG": "/explore_ethiopia/static/media/rd6.f0489ca586f574bf42b3.PNG",
+    "static/media/m4-1.png": "/explore_ethiopia/static/media/m4-1.3731d6a578f947e713cd.png",
+    "static/media/m1-1.png": "/explore_ethiopia/static/media/m1-1.035d8affe341a82b357b.png",
+    "static/media/figma1.PNG": "/explore_ethiopia/static/media/figma1.76e792f1e1ab23736898.PNG",
+    "static/media/figma2.PNG": "/explore_ethiopia/static/media/figma2.19f058378b0c7a175019.PNG",
+    "static/media/m2-1.png": "/explore_ethiopia/static/media/m2-1.0081d16797291c40d7c2.png",
+    "static/media/rd2.PNG": "/explore_ethiopia/static/media/rd2.09fc9a6e43ad285b7f1e.PNG",
+    "static/media/lalm-1-1.svg": "/explore_ethiopia/static/media/lalm-1-1.67135c988954df743e18b6ad5d6776ae.svg",
+    "static/media/figma3.PNG": "/explore_ethiopia/static/media/figma3.068b424f780b4292b47f.PNG",
+    "static/media/figma4.PNG": "/explore_ethiopia/static/media/figma4.c860886242114cc5d20f.PNG",
+    "static/media/logomain-2.svg": "/explore_ethiopia/static/media/logomain-2.7a03da80808654d86788b899c1a54287.svg",
+    "static/media/desktop1.avif": "/explore_ethiopia/static/media/desktop1.ab4e7acbc52b363e456f.avif",
+    "static/media/afar-2-1.svg": "/explore_ethiopia/static/media/afar-2-1.8900c9b40536b6364791043311fa1c60.svg",
+    "static/media/g-1-1.svg": "/explore_ethiopia/static/media/g-1-1.e5e52cb8e8b5ef55e989d7c750b5d685.svg",
+    "static/media/lalmain-1.svg": "/explore_ethiopia/static/media/lalmain-1.01c1559437898ad6c8aa6a23fb6e5389.svg",
+    "static/media/meskl-2-1.svg": "/explore_ethiopia/static/media/meskl-2-1.3e9e26c6db89d432066023cf2e183966.svg",
+    "static/media/ab-3-1.svg": "/explore_ethiopia/static/media/ab-3-1.6a9d8aa8e16abe90960bddb0e89fe518.svg",
+    "static/media/logo-2-1.svg": "/explore_ethiopia/static/media/logo-2-1.2d59035dfaec790ca2fd4543877c17c4.svg",
+    "static/media/er-1-1.svg": "/explore_ethiopia/static/media/er-1-1.ca6a73e24fda4f304984af6eb3f0136b.svg",
+    "static/media/axum-1.svg": "/explore_ethiopia/static/media/axum-1.14098b34b9e9e9a6a6d2c2cbb542e3e5.svg",
+    "index.html": "/explore_ethiopia/index.html",
+    "static/media/vector.svg": "/explore_ethiopia/static/media/vector.56daf8ae1f30e465b65b60815a461e66.svg",
+    "static/media/vector-2.svg": "/explore_ethiopia/static/media/vector-2.cf53886cdc01aa1fdb7360866775b9a9.svg",
+    "static/media/ic-outline-facebook.svg": "/explore_ethiopia/static/media/ic-outline-facebook.c4360c6e53d938ad2e8297d88974c17e.svg",
+    "static/media/rectangle-6.svg": "/explore_ethiopia/static/media/rectangle-6.5424a2cb06449a6fa1b397f9630ac568.svg",
+    "static/media/carbon-dot-mark.svg": "/explore_ethiopia/static/media/carbon-dot-mark.e34e8b05ec7b9d2ccc0e2f7641f78142.svg",
+    "static/media/rectangle-13.svg": "/explore_ethiopia/static/media/rectangle-13.95a1a93e587f714d95d098e7818e38a2.svg",
+    "main.98904c85.css.map": "/explore_ethiopia/static/css/main.98904c85.css.map",
+    "main.419fb6fc.js.map": "/explore_ethiopia/static/js/main.419fb6fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98904c85.css",
+    "static/js/main.419fb6fc.js"
+  ]
+}
